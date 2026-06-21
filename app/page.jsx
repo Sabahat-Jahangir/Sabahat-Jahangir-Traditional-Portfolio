@@ -138,7 +138,7 @@ const NavBar = () => {
           <span className="relative inline-flex items-center gap-2 rounded-xl bg-black/90 border border-emerald-400/60 px-3 py-2 md:px-5 md:py-2.5 font-mono text-xs md:text-sm font-bold transition-colors">
             <Box className="w-4 h-4 text-emerald-400 group-hover:text-rose-300 transition-colors" />
             <span className="bg-gradient-to-r from-emerald-300 to-rose-300 bg-clip-text text-transparent group-hover:from-white group-hover:to-white">
-              3D Professional Resume
+              3D Professional Portfolio
             </span>
             <Sparkles className="w-3.5 h-3.5 text-rose-400" />
           </span>
