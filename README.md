@@ -1,263 +1,121 @@
-# 🔐 Sabahat Jahangir - Traditional Portfolio
+# 🛡️ Sabahat Jahangir — Traditional Portfolio
+
+A high-performance, fully responsive 3D portfolio built to do more than just look good — it tells the story of a Computer Science student who got hooked on breaking things apart (securely, ethically, academically) to understand how to build them better. Continuous rigid-body physics, glassmorphic UI, buttery-smooth scrolling, and a research-driven narrative come together in one site.
 
 
-A stunning, cinematic, fully interactive cybersecurity-focused portfolio built with modern web technologies. This portfolio showcases expertise in cybersecurity, digital forensics, and full-stack development.
 
----
+<br>
 
-## ✨ Features
+## 👋 Assalamo Alaikum, Hi, I'm Sabahat
 
-### 🎨 Design & UX
-- **Dark Cyberpunk Theme** - Deep black with neon cyan and purple accents
-- **Glassmorphism & Animations** - Smooth Framer Motion animations throughout
-- **Responsive Design** - Mobile-first, works seamlessly on all devices
-- **Loading Animation** - "Initializing Secure System" startup screen
-- **Custom Cursor** - Cybersecurity-themed cursor effects
-- **3D Effects** - Parallax scrolling, depth layering, perspective transforms
+I'm a Graduate Computer Science student from **FAST National University of Computer and Emerging Sciences**, with a growing obsession for three things that don't usually share a sentence: cybersecurity, artificial intelligence, and cloud infrastructure. I like the side of tech that asks *"how could this be broken?"* just as much as the side that asks *"how do we build it?"* — digital forensics, adversarial ML, ethical hacking labs, and AWS architecture all live comfortably in the same notebook for me.
 
-### 📊 Sections
-1. **Hero Section** - Animated introduction with gradient text
-2. **About Me** - Professional background and cybersecurity focus
-3. **Career Goals** - "Securing Pakistan's Digital Future" vision
-4. **Projects Showcase** - 6 featured projects with 3 live + 3 planned
-5. **Skills Arsenal** - Organized by category (Programming, Systems, Security, Full Stack)
-6. **Timeline** - Journey from 2022-2026 with major milestones
-7. **Certifications** - Google AI Essentials, Ubuntu Linux, TA Certification
-8. **Lab Workspace** - Active penetration testing and security labs
-9. **Contact** - Email, LinkedIn, GitHub links with copy-to-clipboard
-10. **Footer** - Complete navigation and social links
+When I'm not debugging a model or chasing a misconfigured security group, I'm usually deep in a research rabbit hole, mentoring juniors as a Teaching Assistant, or sketching out a new project idea I probably don't have time for (but will make time for anyway).
 
-### 🎯 Key Projects Included
-- ✅ AI-Based Accident Detection System (CNN + LSTM)
-- ✅ Smart Trash Truck Routing System (Algorithms)
-- ✅ Cybersecurity Awareness Game (Interactive Learning)
-- 🔜 Digital Forensics Toolkit
-- 🔜 OSINT Investigation Platform
-- 🔜 Network Intrusion Detection System
+<br>
 
----
+## 🔬 Research Spotlight
 
-## 🛠️ Tech Stack
+I currently work as a **Research Assistant under Dr. Anwar Shah**, contributing to security-focused Generative AI research. My work splits across two connected fronts:
 
-### Frontend
-- **React 18** - UI library
-- **Next.js 14** - Full-stack framework
-- **Framer Motion** - Advanced animations
-- **Tailwind CSS** - Utility-first styling
-- **Lucide React** - Beautiful icons
+- **Multi-Pipeline Retrieval-Augmented Generation (RAG):** designing, testing, and evaluating RAG architectures — using PCA, UMAP, and KMeans clustering for topic-aware routing, KD-trees for fast nearest-neighbor search, and HNSW indexing — all aimed at making retrieval more accurate, responses more relevant, and the overall system more stable.
+- **Backdoor & Adversarial-Trigger Detection:** investigating how hidden backdoors and adversarial triggers can quietly manipulate machine learning model behavior, and developing methods to detect and reduce that risk before it ships.
 
-### Advanced Features
-- **Three.js** - 3D graphics (optional enhancement)
-- **GSAP** - Timeline animations
-- **TypeScript** - Type safety (ready)
+This role is where my "I want to build AI" side and my "I want to break AI to make it safer" side finally agree on something.
 
----
+<br>
 
-## 📦 Installation & Setup
+## 💼 Featured Work
 
-### 1. Clone & Install Dependencies
+| Project | What It Does |
+|---|---|
+| **RoadGuard-AI** *(Final Year Project)* | Real-time accident detection from CCTV/video streams using CNN + LSTM, with multi-channel alerts, severity classification, and an admin dashboard — built to cut emergency response time. |
+| **Smart Trash Truck Routing System** | Optimizes waste-collection routes using Minimum Spanning Trees, Dynamic Programming, and B+ Trees for real-time, fill-level-aware routing. |
+| **Sabgeer AI Assistant** | A Python-based AI assistant for information retrieval and automated interaction. |
+| **E-Commerce Database System** | A complete Oracle SQL / PL-SQL backend handling inventory, customers, and order processing. |
+| **Steganography Project** | Hiding data inside media files — exploring the practical side of information security. |
+| **Web Security Vulnerability Lab** | Hands-on exploration of common web vulnerabilities in a safe, controlled lab environment. |
+
+<br>
+
+## 🛠️ Tech Stack — This Portfolio
+
+- **Framework & Logic:** React, TypeScript, Node.js
+- **3D & Visuals:** Three.js, React Three Fiber (R3F), WebGL
+- **Animation:** GSAP, ScrollTrigger, Lenis (Smooth Scroll)
+- **Physics Engine:** `@react-three/rapier` (rigid-body colliders)
+
+## 💻 Skills & Tools — Beyond the Portfolio
+
+`Python` `C` `C++` `SQL` `PL/SQL` `Oracle DB` `MySQL` `MongoDB` `AWS` `Linux` `Git/GitHub` `OSINT` `Network Security` `Digital Forensics` `Machine Learning` `Deep Learning` `Computer Vision`
+
+<br>
+
+## ✨ Highlights
+
+- **Deterministic 3D Tech Spheres** — rigid-physics collision layout for tech icons, rendering cleanly without duplicate overrides.
+- **Glassmorphic Section Frames** — transparent, blurred panels layered over dark, security-inspired gradients.
+- **Research-First Storytelling** — a dedicated section that puts active research, not just finished projects, front and center.
+- **Continuous Lenis Scrolling** — seamless, native-feeling scroll behavior across desktop and mobile.
+
+<br>
+
+## 📜 Certifications
+
+- Google AI Essentials
+- Google Cybersecurity Professional Certificate
+- Ubuntu Linux Certification (Coursera)
+
+<br>
+
+## 🚀 Getting Started
+
 ```bash
+# 1. Clone the repo
+git clone https://github.com/<your-username>/<repo-name>.git
+
+# 2. Move into the project
+cd <repo-name>
+
+# 3. Install dependencies
 npm install
-# or
-yarn install
-# or
-pnpm install
-```
 
-### 2. Run Development Server
-```bash
+# 4. Run the dev server
 npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 3. Build for Production
-```bash
+# 5. Build for production
 npm run build
-npm start
 ```
 
----
+<br>
 
-## 📂 Project Structure
+## 🌐 Live Portfolio
 
-```
-portfolio/
-├── pages/
-│   ├── _app.js          # App wrapper
-│   ├── _document.js     # Document setup
-│   └── index.js         # Main portfolio page
-├── components/
-│   ├── LoadingScreen.jsx
-│   ├── NavBar.jsx
-│   ├── HeroSection.jsx
-│   ├── AboutSection.jsx
-│   ├── CareerGoalSection.jsx
-│   ├── ProjectsSection.jsx
-│   ├── SkillsSection.jsx
-│   ├── TimelineSection.jsx
-│   ├── CertificationsSection.jsx
-│   ├── LabSection.jsx
-│   ├── ContactSection.jsx
-│   └── Footer.jsx
-├── styles/
-│   └── globals.css
-├── public/
-│   └── (images, fonts)
-├── package.json
-├── next.config.js
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
-```
+<a href="#" target="_blank" rel="noopener noreferrer">
+  <button>Visit My Portfolio</button>
+</a>
 
----
+*(Swap the `#` above for your live Vercel URL once deployed.)*
 
-## 🎨 Color Scheme
+<br>
 
-| Element | Color | Hex |
-|---------|-------|-----|
-| Primary Accent | Cyan | #00ffcc |
-| Secondary Accent | Purple | #a855f7 |
-| Background | Black | #000000 |
-| Text Primary | White | #ffffff |
-| Text Secondary | Cyan (80%) | rgba(0,255,200,0.8) |
+## 📬 Let's Connect
 
----
+I'm always up for a conversation about AI security, RAG systems, cloud architecture, or just good engineering in general.
 
-## 🚀 Deployment Options
+- ✉️ **Email:** sabahat.jahangir.tech@gmail.com
+- 💼 **LinkedIn:** www.linkedin.com/in/sabahat-jahangir
+- 🧑‍💻 **GitHub:** www.github.com/sabahat-jahangir
+- ✍️ **Blog:** CypherHawk on Medium
 
-### Vercel (Recommended)
-```bash
-npm install -g vercel
-vercel
-```
+<br>
 
-### GitHub Pages
-```bash
-npm run export
-# Upload 'out' folder to GitHub Pages
-```
+## 🔒 License
 
-### Netlify
-```bash
-npm run build
-# Drag & drop 'out' folder to Netlify
-```
+**Copyright © 2026 Sabahat Jahangir. All Rights Reserved.**
 
-### Docker
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
-CMD ["npm", "start"]
-```
+Strictly proprietary. Decryption, unauthorized distribution, or commercial usage of the interactive 3D elements/structures is forbidden. All authorship branding must remain intact.
 
----
+<br>
 
-## 🔧 Customization
-
-### Change Personal Info
-Edit the following in `pages/index.js`:
-- Name, title, bio
-- Email and social links
-- Projects and skills
-- Timeline events
-
-### Modify Colors
-Edit `tailwind.config.js`:
-```js
-colors: {
-  cyan: { 400: '#00ffcc' },
-  purple: { 500: '#a855f7' }
-}
-```
-
-### Add New Sections
-1. Create component file
-2. Import in main page
-3. Add smooth scroll animation with Framer Motion
-4. Update navigation menu
-
----
-
-## 📈 Performance Optimization
-
-- ✅ Image optimization with Next.js
-- ✅ Code splitting & lazy loading
-- ✅ CSS-in-JS with Tailwind
-- ✅ Smooth animations without jank
-- ✅ Mobile-first responsive design
-- ✅ SEO optimized structure
-
-### Performance Tips
-1. Use `next/Image` for images
-2. Implement code splitting with dynamic imports
-3. Optimize animations (use GPU acceleration)
-4. Lazy load below-fold sections
-5. Minimize bundle size
-
----
-
-## 🌐 Browser Support
-
-- ✅ Chrome/Edge (Latest)
-- ✅ Firefox (Latest)
-- ✅ Safari (Latest)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
-
----
-
-## 🔒 Security Features
-
-- No external tracking or analytics by default
-- All data stays client-side
-- No third-party API calls (except GitHub)
-- Content Security Policy ready
-- HTTPS recommended for production
-
----
-
-## 🤝 Contributing & Feedback
-
-This is a personal portfolio. For suggestions or improvements:
-1. Test thoroughly on different devices
-2. Check performance metrics
-3. Optimize further as needed
-4. Keep design cohesive and purposeful
-
----
-
-## 📝 License
-
-© 2026 Sabahat Jahangir. All rights reserved.
-
----
-
-
-## 📞 Contact
-
-**Email:** sabahat.jahangir.tech@gmail.com  
-**LinkedIn:** [Sabahat Jahangir](https://linkedin.com/in/sabahat-jahangir)  
-**Location:** Pakistan  
-**Role:** BS Computer Science Student @ FAST NUCES  
-**Graduating:** June 2026
-
----
-
-## 🙏 Acknowledgments
-
-- Framer Motion for smooth animations
-- Tailwind CSS for utility styling
-- Next.js for amazing framework
-- Lucide React for beautiful icons
-- All cybersecurity mentors and teachers
-
----
-
-**"Securing Pakistan's Digital Future"** 🔐✨
+<p align="center"><i>Built with curiosity, secured with intent. 🛡️</i></p>
