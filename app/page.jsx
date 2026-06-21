@@ -6,7 +6,7 @@ import { ChevronDown, Github, Linkedin, Mail, Shield, Lock, Terminal, Zap, Code,
 
 // ─────────────────────────────────────────────────────────────
 // EDIT THIS: paste the Vercel link of your 3D resume/project here
-const RESUME_3D_URL = 'https://your-3d-project.vercel.app';
+const RESUME_3D_URL = 'https://sabahat-jahangir-3-d-portfolio.vercel.app/';
 // ─────────────────────────────────────────────────────────────
 
 // ============================================================================
