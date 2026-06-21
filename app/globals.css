@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@100;300;400;500;700;900&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(52, 211, 153, 0.3);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 211, 153, 0.5);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom cursor */
+body {
+  cursor: url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"%3e%3ccircle cx="12" cy="12" r="3" fill="%2300ffcc"/%3e%3ccircle cx="12" cy="12" r="10" fill="none" stroke="%2300ffcc" stroke-width="1" opacity="0.5"/%3e%3c/svg%3e')
+    10 10,
+    auto;
+}
+
+/* Glow effect utility */
+.glow-emerald {
+  box-shadow: 0 0 20px rgba(52, 211, 153, 0.3);
+}
+
+.glow-rose {
+  box-shadow: 0 0 20px rgba(251, 113, 133, 0.3);
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(52, 211, 153, 0.1);
+}
+
+/* Animated gradient */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+}
+
+/* Neon text effect */
+.neon-text {
+  text-shadow:
+    0 0 10px rgba(52, 211, 153, 0.8),
+    0 0 20px rgba(52, 211, 153, 0.6),
+    0 0 30px rgba(52, 211, 153, 0.4),
+    0 0 40px rgba(251, 113, 133, 0.4);
+}
+
+/* Terminal effect */
+.terminal {
+  font-family: 'Fira Code', monospace;
+  color: #34d399;
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.8);
+}
+
+/* Hover animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.hover-float:hover {
+  animation: float 3s ease-in-out;
+}
+
+/* Grid background animation */
+@keyframes scanlines {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.scanlines {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanlines::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    transparent 24%,
+    rgba(52, 211, 153, 0.05) 25%,
+    rgba(52, 211, 153, 0.05) 26%,
+    transparent 27%,
+    transparent 74%,
+    rgba(52, 211, 153, 0.05) 75%,
+    rgba(52, 211, 153, 0.05) 76%,
+    transparent 77%,
+    transparent
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+  animation: scanlines 8s linear infinite;
+}
+
+/* Delay animation utilities */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-700 {
+  animation-delay: 700ms;
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(52, 211, 153, 0.3);
+  color: #34d399;
+}
+
+/* Link styling */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Focus styles */
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.2);
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    cursor: auto;
+  }
+
+  .neon-text {
+    text-shadow: none;
+  }
+}
